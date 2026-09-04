@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs - Responsive Interface</title>
+    <!-- Google Fonts: Inter & Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo">Decode<span>Labs</span></div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="site-nav" id="siteNav">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#content">Features</a></li>
+                <li><a href="#sidebar">Updates</a></li>
+                <li><a href="#contact" class="btn-primary">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Container Layout -->
+    <div class="layout-container">
+        
+        <!-- Primary Main Section -->
+        <main class="main-content" id="hero">
+            <section class="hero">
+                <h1>Digital Craftsmanship</h1>
+                <p>Building the digital entry point with absolute clarity and adaptive responsiveness.</p>
+                <button class="btn-secondary">Explore Platform</button>
+            </section>
+
+            <!-- Grid Content Units -->
+            <section class="content-grid" id="content">
+                <article class="card">
+                    <h3>Semantic Integrity</h3>
+                    <p>Clean HTML5 structure ensuring high accessibility and search visibility.</p>
+                </article>
+                <article class="card">
+                    <h3>Flexible Layouts</h3>
+                    <p>Utilizing CSS Grid for page structure and Flexbox for component alignment.</p>
+                </article>
+                <article class="card">
+                    <h3>Pure Performance</h3>
+                    <p>Zero framework dependencies to ensure maximum loading speed and lightweight execution.</p>
+                </article>
+            </section>
+        </main>
+
+        <!-- Sidebar Section -->
+        <aside class="side-panel" id="sidebar">
+            <h2>Latest Insights</h2>
+            <div class="panel-box">
+                <h4>2026 UI Trends</h4>
+                <p>Shifting towards warm, grounded aesthetics and fluid typography scaling.</p>
+            </div>
+            <div class="panel-box">
+                <h4>Accessibility First</h4>
+                <p>Designing interfaces built for universal access and WCAG compliance.</p>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Terminal Metadata Footer -->
+    <footer class="site-footer" id="contact">
+        <p>&copy; 2026 DecodeLabs. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
